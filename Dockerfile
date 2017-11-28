@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Amarbir Singh
+MAINTAINER Amarbir Singh <amarbir22@gmail.com>
 
 # Install utilities
 RUN apt-get update && apt-get install -y \
@@ -15,6 +15,10 @@ RUN apt-get update && apt-get install -y \
     apt-get update && apt-get install -y \
     nodejs \
     google-chrome-stable \
+    openjdk-8-jre-headless \
+    xvfb \
+    libxi6 \
+    libgconf-2-4 \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /src/*.deb
