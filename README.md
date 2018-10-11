@@ -1,6 +1,6 @@
 # nodejs-chrome-java
 Docker image for running protractor tests or any Selenium based tests.
-(Docker Repo)[https://hub.docker.com/r/amarbir22/nodejs-chrome-java/]
+[Docker Repo](https://hub.docker.com/r/amarbir22/nodejs-chrome-java/)
 
 ## Sample Protractor Config
 ```sh
